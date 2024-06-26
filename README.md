@@ -1,19 +1,35 @@
-# Face Recognition
+# ## Text Generation - Character level language model - Writing like Shakespeare - Dinosaurus Island
 
-This project focuses on building a robust **face recognition system** using deep learning techniques. The main objective is to identify and verify individuals in images by analyzing and comparing facial features.
+This project aims to develop a **character-level language model** capable of **generating text** in the style of famous literary works. The project leverages deep learning techniques to create a model that can produce coherent and stylistically consistent text snippets.
+
 
 <div align="center">
-<img src="images\Face.jpg" style="width:450px;"> <br>Designed by Freepik
+<img src="images\shakespeare1.jpg" style="width:450px;"> <br>Designed by Freepik
 </div>
 
 ![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
-![Convolutional Neural Networks](https://img.shields.io/badge/Skill-Convolutional%20Neural%20Networks-blueviolet)
-![Face Recognition Algorithms](https://img.shields.io/badge/Skill-Face%20Recognition%20Algorithms-green)
+![Text Generation](https://img.shields.io/badge/Skill-Text%20Generation-brightblue)
+![Recurrent Neural Networks-RNN](https://img.shields.io/badge/Skill-Recurrent%20Neural%20Networks-RNN-blueviolet)
+![Natural Language Processing-NLP](https://img.shields.io/badge/Skill-Natural%20Language%20Processing-green)
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-orange)
 ![Keras](https://img.shields.io/badge/Skill-Keras-yellow)
-![Computer Vision](https://img.shields.io/badge/Skill-Computer%20Vision-brightblue)
 ![Image Processing](https://img.shields.io/badge/SkillImage%20Processing-brightblue)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-orange)
+
+## Project File Structure
+
+```bash
+Dinosaurus_Island_Character_Level_Language_Model/
+│
+├── Dinosaurus_Island_Character_level_language_model.ipynb    # Main notebook with project code and explanations
+├── generateTestCases.py                                      # Script to generate test cases for the model
+├── shakespeare.txt                                           # Text data from Shakespeare's works
+├── dinos.txt                                                 # Text data with dinosaur names
+├── shakespeare_utils.py                                      # Utility functions for processing Shakespeare text
+├── test_utils.py                                             # Utility functions for testing the model
+├── utils.py                                                  # General utility functions
+└── models                                                    # Trained model file
+```
 
 ## Frameworks and Libraries
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16.1-orange.svg?style=flat&logo=tensorflow)
@@ -23,22 +39,22 @@ This project focuses on building a robust **face recognition system** using deep
 
 ## Project Architecture
 
-The project is structured around a convolutional neural network (CNN) that is trained to extract and compare facial features from images. The architecture includes layers for convolution, pooling, and fully connected neural networks that together enable accurate face recognition.
-
+The project utilizes a Recurrent Neural Network (RNN) architecture, specifically Long Short-Term Memory (LSTM) networks, to model the sequence data. The model is trained on a large corpus of text to learn the statistical properties of character sequences, enabling it to generate text in a similar style.
 
 ## Key Features
-- Preprocessing of images for face detection and alignment
-- Feature extraction using a pre-trained CNN.
-- Face verification and identification
+- Text preprocessing for character-level modeling
+- Implementation of an `LSTM-based character-level language model`
+- Training the model on large text corpora (Shakespeare and dinosaur names)
+- Text generation using the trained model
 
 ## Usage
 **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/Face_Recognition_Project.git
+git clone https://github.com/yourusername/Dinosaurus_Island_Character_Level_Language_Model.git
 ```
 **Navigate to the project directory:**
 ```bash
-cd Face_Recognition_Project
+cd Dinosaurus_Island_Character_Level_Language_Model
 ```
 **Install the required dependencies:**
 ```bash
@@ -46,11 +62,11 @@ pip install -r requirements.txt
 ```
 **Run the Jupyter Notebook to see the implementation:**
 ```bash
-jupyter notebook Face_Recognition.ipynb
+jupyter notebook Dinosaurus_Island_Character_level_language_model.ipynb
 ```
 ## Results
 
-The face recognition system is capable of accurately identifying and verifying individuals in various images. The performance is demonstrated through a series of tests and visualizations in the provided Jupyter Notebook.
+The character-level language model successfully generates text that mimics the style of the training data. The generated text is coherent and stylistically consistent with the works of Shakespeare and the list of dinosaur names, demonstrating the effectiveness of the model in learning and replicating character-level patterns.
 
 <div align="center">
 <img src="images\younes.jpg" style="width:100px;"></center>
