@@ -1,4 +1,4 @@
-# ## Text Generation - Character level language model - Writing like Shakespeare - Dinosaurus Island
+# Text Generation - Character level language model - Writing like Shakespeare - Dinosaurus Island
 
 This project aims to develop a **character-level language model** capable of **generating text** in the style of famous literary works. The project leverages deep learning techniques to create a model that can produce coherent and stylistically consistent text snippets.
 
@@ -9,8 +9,8 @@ This project aims to develop a **character-level language model** capable of **g
 
 ![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
 ![Text Generation](https://img.shields.io/badge/Skill-Text%20Generation-brightblue)
-![Recurrent Neural Networks-RNN](https://img.shields.io/badge/Skill-Recurrent%20Neural%20Networks-RNN-blueviolet)
-![Natural Language Processing-NLP](https://img.shields.io/badge/Skill-Natural%20Language%20Processing-green)
+![Recurrent Neural Networks](https://img.shields.io/badge/Skill-Recurrent%20Neural%20Networks-blueviolet)
+![Natural Language Processing](https://img.shields.io/badge/Skill-Natural%20Language%20Processing-green)
 ![TensorFlow](https://img.shields.io/badge/Skill-TensorFlow-orange)
 ![Keras](https://img.shields.io/badge/Skill-Keras-yellow)
 ![Image Processing](https://img.shields.io/badge/SkillImage%20Processing-brightblue)
@@ -67,10 +67,3 @@ jupyter notebook Dinosaurus_Island_Character_level_language_model.ipynb
 ## Results
 
 The character-level language model successfully generates text that mimics the style of the training data. The generated text is coherent and stylistically consistent with the works of Shakespeare and the list of dinosaur names, demonstrating the effectiveness of the model in learning and replicating character-level patterns.
-
-<div align="center">
-<img src="images\younes.jpg" style="width:100px;"></center>
-<center><img src="images\result-face.png" style="width:300px;"></center>
-<center><img src="images\benoit.jpg" style="width:100px;"></center>
-<center><img src="images\face_result_02.png" style="width:300px;"></center>
-</div>
