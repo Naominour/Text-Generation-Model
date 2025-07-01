@@ -54,7 +54,7 @@ git clone https://github.com/yourusername/Dinosaurus_Island_Character_Level_Lang
 ```
 **Navigate to the project directory:**
 ```bash
-cd Dinosaurus_Island_Character_Level_Language_Model
+cd Text-Generation-Model
 ```
 **Install the required dependencies:**
 ```bash
